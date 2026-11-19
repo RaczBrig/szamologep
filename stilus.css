@@ -1,0 +1,47 @@
+body{
+    background-color: gray;
+}
+
+main{
+    background-color: white;
+}
+
+main h1{
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.gombok{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    gap: 5px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.perjel{
+    background-color: rgb(84, 144, 255);
+}
+
+.csillag{
+    background-color: rgb(84, 144, 255);
+}
+
+.minusz{
+    background-color: rgb(84, 144, 255);
+}
+
+.plusz{
+    background-color: rgb(84, 144, 255);
+}
+
+.c{
+    background-color: rgb(255, 84, 84);
+}
+
+.egyenlo{
+    background-color: rgb(9, 121, 115);
+    color: white;
+}
